@@ -4,6 +4,7 @@
   .intro__img--sm{display: none;}
   .experience{grid-template-columns:1fr 1fr}.xp:nth-child(2){margin-top:0}
   .visit__grid,.footer{grid-template-columns:1fr 1fr}
+  
 }
 @media (max-width:820px){
   .nav__toggle{display:block;z-index:2}

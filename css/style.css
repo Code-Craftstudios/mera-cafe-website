@@ -7,6 +7,7 @@
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "DM Sans", system-ui, sans-serif;
   --pad: clamp(1.25rem, 5vw, 5rem);
+
 }
 *,
 *::before,
@@ -17,6 +18,9 @@
 }
 html {
   scroll-behavior: auto;
+  img{
+   border-radius: 2%;
+  }
 }
 body {
   font: 400 1rem/1.7 var(--sans);
