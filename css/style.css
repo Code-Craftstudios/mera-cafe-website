@@ -414,8 +414,9 @@ section {
 }
 .signature__img {
   position: relative;
-  aspect-ratio: 4/5;
+  aspect-ratio: 6/5;
   overflow: hidden;
+  border-radius: 15%;
 }
 .signature__text {
   position: relative;
