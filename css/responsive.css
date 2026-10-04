@@ -1,7 +1,7 @@
 @media (max-width:1024px){
   .intro,.story,.signature{grid-template-columns:1fr}
   .intro__img--lg{grid-row:auto}
-  .intro__img--sm{margin-top:-4rem}
+  .intro__img--sm{display: none;}
   .experience{grid-template-columns:1fr 1fr}.xp:nth-child(2){margin-top:0}
   .visit__grid,.footer{grid-template-columns:1fr 1fr}
 }
